@@ -27,9 +27,9 @@ dependencies {
 }
 
 processResources {
-    from(sourceSets.main.resources.srcDirs) {
-        filter ReplaceTokens, tokens: [version: version]
-    }
+//    from(sourceSets.main.resources.srcDirs) {
+//        filter ReplaceTokens, tokens: [version: version]
+//    }
 }
 
 shadowJar {
