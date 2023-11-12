@@ -1,8 +1,8 @@
 name: CarpetPlugin
 version: @version@
 main: com.ishland.bukkit.carpetplugin.CarpetPlugin
-api-version: "1.16"
-authors: [ ishland ]
+api-version: "1.20.1"
+authors: [ ishland , CatVer ]
 description: Partital implementation of Carpet Mod
 permissions:
   carpet.player:
