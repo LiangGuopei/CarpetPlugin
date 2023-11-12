@@ -51,5 +51,15 @@
       <option name="name" value="aliyun-mirror" />
       <option name="url" value="https://maven.aliyun.com/repository/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="codemc-nms" />
+      <option name="name" value="codemc-nms" />
+      <option name="url" value="https://repo.codemc.io/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="papermc-repo" />
+      <option name="name" value="papermc-repo" />
+      <option name="url" value="https://repo.papermc.io/repository/maven-public/" />
+    </remote-repository>
   </component>
 </project>

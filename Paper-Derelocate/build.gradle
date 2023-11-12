@@ -6,13 +6,17 @@ plugins {
 repositories {
     mavenCentral()
     maven {
-        name = 'codemc-nms'
-        url = "https://repo.codemc.io/repository/nms/"
+        name = "papermc-repo"
+        url = "https://repo.papermc.io/repository/maven-public/"
+    }
+    maven {
+        name = "sonatype"
+        url = "https://oss.sonatype.org/content/groups/public/"
     }
 }
 
 dependencies {
-    implementation "com.destroystokyo.paper:paper:${project.paper_version}"
+    implementation "io.papermc.paper:paper-api:${project.paper_version}"
 }
 
 assemble.dependsOn(shadowJar)
